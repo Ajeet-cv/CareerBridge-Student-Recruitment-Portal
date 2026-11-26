@@ -1,22 +1,23 @@
 # CareerBridge – Student Recruitment Portal
 
-> **Tagline:** Bridging Students and Opportunities. Building Better Careers.
+**Bridging Students and Opportunities. Building Better Careers.**
 
-A centralized student recruitment platform designed to connect students, recruiters, and placement administrators through a unified digital experience.
+CareerBridge is a web-based student recruitment portal developed to make the campus placement process more organized and accessible. It provides a common platform for students, recruiters, and placement administrators to manage recruitment-related activities.
 
 ---
 
-## 📌 Project & Team Details
+## Project & Team Details
 
 | Attribute | Details |
 |---|---|
 | Project ID | 95 |
 | Project Title | CareerBridge – Student Recruitment Portal |
 | Institution | ABES Engineering College |
-| Department & Section | Computer Science & Engineering (CSE-11) |
+| Department | Computer Science & Engineering |
+| Section | CSE-11 |
 | GitHub Repository | [CareerBridge-Student-Recruitment-Portal](https://github.com/Ajeet-cv/CareerBridge-Student-Recruitment-Portal) |
 
-### 👥 Project Team Members
+### Team Members
 
 | Name | University Roll Number | Section |
 |---|---|---|
@@ -25,179 +26,177 @@ A centralized student recruitment platform designed to connect students, recruit
 
 ---
 
-## 📖 1. Project Introduction
+## 1. Project Introduction
 
-**CareerBridge – Student Recruitment Portal** is a web-based platform designed to simplify and organize the campus recruitment process.
+CareerBridge – Student Recruitment Portal is a platform designed to simplify the campus recruitment process by bringing students, companies, and the placement department together.
 
-The platform aims to connect students, corporate recruiters, and Training & Placement Officers (TPO) through a centralized interface.
+In many colleges, placement-related information is shared through different channels, which makes it difficult for students to keep track of job opportunities and application updates. CareerBridge aims to provide a common platform where these activities can be managed in an organized manner.
 
-Students can explore career opportunities, maintain their professional profiles, and track their applications. Recruiters can manage job openings and candidates, while placement administrators can monitor recruitment activities.
+The portal is planned to provide separate interfaces for students, recruiters, and Training & Placement Officers (TPO). Each user will have access to features according to their role.
 
-The project is currently under frontend development using React.js, Vite, JavaScript, and CSS3. Backend development and database integration are planned for future phases.
+The current implementation focuses on developing the frontend interface of the application using React.js, Vite, JavaScript, and CSS3.
 
-## ❗ 2. Problem Statement
+## 2. Problem Statement
 
-Traditional campus recruitment processes often involve multiple disconnected tools and manual activities, creating difficulties for students, recruiters, and placement departments.
+Campus placement activities involve several tasks, such as sharing job opportunities, collecting student information, managing applications, and maintaining placement records.
 
-Some common problems include:
+When these activities are handled manually or through multiple platforms, it can lead to problems such as:
 
-- **Scattered Opportunities:** Students often receive job and internship information through different platforms, making opportunities difficult to track.
-- **Manual Application Tracking:** Managing multiple job applications and their progress can become confusing.
-- **Profile Management Difficulties:** Students need a centralized place to maintain their academic and professional information.
-- **Recruitment Management:** Recruiters need an organized way to manage job openings and candidate applications.
-- **Placement Monitoring:** TPOs require a centralized system to monitor recruitment activities and student placement progress.
+- Students may miss important placement and internship opportunities.
+- Managing multiple job applications becomes difficult.
+- Student academic and professional information is not maintained in one place.
+- Recruiters may face difficulties while managing applications from different candidates.
+- Placement officers need an organized way to monitor recruitment activities.
 
-CareerBridge aims to address these challenges through a unified student recruitment platform.
+The purpose of CareerBridge is to provide a centralized platform that can help manage these activities more efficiently.
 
-## 🎯 3. Project Objectives
+## 3. Objectives
 
-1. Develop a centralized platform for campus recruitment activities.
-2. Provide students with an organized interface to explore career opportunities.
-3. Simplify student profile and resume management.
-4. Help recruiters manage job openings and candidate applications.
-5. Provide placement administrators with a centralized recruitment management interface.
-6. Create a responsive and user-friendly web application.
-7. Establish a foundation for future backend and database integration.
+The main objectives of this project are:
 
-## ✨ 4. Planned Platform Features
+1. To develop a common platform for campus recruitment activities.
+2. To make job and internship opportunities easily accessible to students.
+3. To provide a structured way to maintain student profiles and resumes.
+4. To help recruiters manage job openings and candidate applications.
+5. To assist TPOs in managing placement-related information.
+6. To create a simple and responsive user interface.
+7. To reduce the difficulties involved in managing placement activities manually.
 
-The following modules represent the planned functionality of CareerBridge and will be implemented progressively.
+## 4. Main Platform Features
 
-### 🎓 A. Student Module
+The platform is divided into the following major modules.
+
+### A. Student Module
 
 - Student registration and login.
-- Student profile management.
-- Academic information management.
+- Personal and academic profile management.
 - Resume upload and management.
-- Browse job and internship opportunities.
-- Apply for suitable job openings.
-- Track application status.
+- Browse available jobs and internships.
+- Apply for suitable opportunities.
+- Check application status.
 
-### 🏢 B. Recruiter Module
+### B. Recruiter Module
 
 - Recruiter registration and login.
 - Company profile management.
-- Create and manage job openings.
-- View student applications.
-- Search and filter candidates.
-- Shortlist suitable applicants.
+- Post new job opportunities.
+- Manage job openings.
+- View candidate applications.
+- Search and shortlist candidates.
 
-### 🏛️ C. TPO / Administrator Module
+### C. TPO / Admin Module
 
-- Centralized placement dashboard.
-- Student record management.
+- View placement-related information.
+- Manage student records.
 - Monitor recruitment activities.
-- Manage placement-related information.
-- View placement analytics.
-- Generate recruitment reports.
+- Manage company and placement information.
+- View placement statistics and reports.
 
-### 🌐 D. Public Landing Page
+### D. Public Website
 
-The public-facing landing page introduces the CareerBridge platform and its major features.
+The public website introduces the CareerBridge platform and explains its purpose and features.
 
-Implemented sections include:
+The current landing page contains:
 
-- Hero Section
-- Problem vs Solution
+- Home / Hero Section
+- Problem and Solution
 - Recruitment Workflow
-- Core Features
-- Role-Based Platform Overview
-- Illustrative Results Section
+- Platform Features
+- User Roles
+- Results Overview
 - Testimonials
-- FAQ Accordion
-- Final Call-to-Action
+- Frequently Asked Questions
+- Call-to-Action Section
 
-## 💻 5. Technology Stack
+## 5. Technology Stack
 
-### Frontend
+The technologies used in the current frontend implementation are:
 
 | Technology | Purpose |
 |---|---|
-| React.js 19 | Building reusable user interface components |
-| Vite 6 | Frontend development and build tool |
-| JavaScript | Application logic and interactions |
-| CSS3 | Styling and responsive layouts |
-| React Router DOM 7 | Client-side routing |
-| Lucide React | Interface icons |
-| React Hooks | Managing component state and behavior |
+| React.js | Developing the user interface |
+| Vite | Frontend development and build tool |
+| JavaScript | Application logic |
+| HTML5 | Web page structure |
+| CSS3 | Styling and responsive design |
+| React Router DOM | Navigation between pages |
+| Lucide React | Icons |
+| Git & GitHub | Version control and collaboration |
+| VS Code | Code editor |
 
-### Backend
+**Backend:** Not implemented yet. It is planned for a later stage.
 
-- Not implemented yet.
-- Planned for future development.
+**Database:** Database integration has not been started yet.
 
-### Database
+## 6. User Roles & Access Matrix
 
-- Not integrated yet.
-- Planned for future development.
+The portal is designed for three main types of users.
 
-### Development Tools
+| Module | Student | Recruiter | TPO / Admin |
+|---|---|---|---|
+| Manage Student Profile | Yes | No | Yes |
+| Browse Job Opportunities | Yes | No | Yes |
+| Apply for Jobs | Yes | No | No |
+| Post Job Openings | No | Yes | Yes |
+| View Applications | Own Applications | Yes | Yes |
+| Manage Placement Records | No | No | Yes |
+| View Placement Information | Yes | Yes | Yes |
 
-- Visual Studio Code
-- Git
-- GitHub
-- npm
-- Antigravity
+*Note: This table represents the planned responsibilities of each user role.*
 
-## 🎭 6. User Roles & Responsibilities
+## 7. Project Architecture
 
-| User Role | Planned Responsibilities |
-|---|---|
-| Student | Manage profile, explore opportunities, upload resume and track applications |
-| Recruiter | Manage company profile, post jobs and review candidates |
-| TPO / Administrator | Monitor student recruitment activities and manage placement records |
-
-## 🏗️ 7. Project Architecture
+The current version of CareerBridge follows a React-based Single Page Application (SPA) architecture.
 
 ### Current Frontend Architecture
 
-CareerBridge currently follows a frontend-based Single Page Application (SPA) architecture.
-
 ```text
-             [ User ]
-                |
-                v
-       [ React.js Frontend ]
-                |
-                v
-        [ React Router DOM ]
-                |
-                v
-       [ Reusable UI Components ]
-                |
-                v
-        [ JavaScript + CSS3 ]
-                |
-                v
-          [ Vite Build Tool ]
+             User
+               |
+               v
+        React Application
+               |
+               v
+         React Router
+               |
+               v
+       Application Pages
+               |
+               v
+       Reusable Components
+               |
+               v
+         JavaScript
+               |
+               v
+             CSS
 ```
 
-### Planned Future Architecture
+### Planned Architecture
+
+In future development, backend services and database connectivity will be added to support the complete recruitment workflow.
 
 ```text
-       [ React.js Frontend ]
-                |
-                v
-       [ REST API Requests ]
-                |
-                v
-     [ Node.js + Express.js ]
-                |
-                v
-          [ MongoDB ]
+       React Frontend
+              |
+              v
+          REST APIs
+              |
+              v
+      Node.js + Express
+              |
+              v
+           MongoDB
 ```
 
-The backend architecture will be introduced in future development phases.
+## 8. Project Folder Structure
 
-## 📂 8. Project Folder Structure
-
-The current repository follows a modular React + Vite frontend structure.
+The current project follows a modular folder structure to keep pages, components, styles, and other files organized.
 
 ```text
 CareerBridge-Student-Recruitment-Portal/
 │
 ├── frontend/
-│   ├── public/
 │   │
 │   ├── src/
 │   │   ├── assets/
@@ -215,10 +214,10 @@ CareerBridge-Student-Recruitment-Portal/
 │   │   │   │   ├── TestimonialsSection.jsx
 │   │   │   │   └── WorkflowSection.jsx
 │   │   │   │
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Footer.css
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── Navbar.css
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Footer.css
 │   │   │   └── SectionHeader.jsx
 │   │   │
 │   │   ├── data/
@@ -253,158 +252,101 @@ CareerBridge-Student-Recruitment-Portal/
 └── README.md
 ```
 
-*Note: This structure represents the current implementation. Additional folders and components will be introduced as development progresses.*
+## 9. Installation & Setup
 
-## ⚙️ 9. Installation & Setup
+Follow these steps to run the project on your local system.
 
 ### Prerequisites
 
-- Node.js installed.
-- npm installed.
-- Git installed.
+- Node.js
+- npm
+- Git
 
-### 1. Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Ajeet-cv/CareerBridge-Student-Recruitment-Portal.git
 ```
 
-### 2. Navigate to the Project
+### Step 2: Open the Project Directory
 
 ```bash
 cd CareerBridge-Student-Recruitment-Portal
 ```
 
-### 3. Navigate to Frontend
+### Step 3: Move to the Frontend Directory
 
 ```bash
 cd frontend
 ```
 
-### 4. Install Dependencies
+### Step 4: Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 5. Start Development Server
+## 10. Run Commands
+
+To start the application in development mode:
 
 ```bash
 npm run dev
 ```
 
-Open the local URL displayed in your terminal to access CareerBridge.
+After starting the development server, open the local URL displayed in the terminal.
 
-### 6. Production Build
+To create a production build:
 
 ```bash
 npm run build
 ```
 
-## 🌿 10. Git Workflow
+## 11. Local Development & Build Verification
 
-The project uses Git and GitHub for version control and collaborative development.
+The frontend has been set up using React.js and Vite. The landing page is divided into reusable components so that different sections can be maintained separately.
 
-Development work is maintained through separate branches.
+The following work has been completed:
 
-Example workflow:
+- Initial React and Vite project setup.
+- Application routing using React Router DOM.
+- Common navigation bar and footer.
+- Reusable components for the landing page.
+- Landing page sections for features, workflow, user roles, and FAQs.
+- FAQ accordion interaction.
+- Basic responsive styling.
+- Placeholder pages for upcoming portal sections.
 
-```bash
-# Get the latest changes
-git pull origin main
+The production build has been executed successfully using `npm run build`.
 
-# Switch to your development branch
-git checkout dev_akash
+## 12. Future Enhancements
 
-# Check modified files
-git status
+The following features can be added to make the portal more useful:
 
-# Add changes
-git add .
-
-# Commit changes
-git commit -m "Update CareerBridge frontend"
-
-# Push your branch
-git push origin dev_akash
-```
-
-Changes can subsequently be reviewed and merged into the main branch through a Pull Request.
-
-## 🧪 11. Current Development Progress
-
-CareerBridge is being developed in multiple phases.
-
-| Phase | Description | Status |
-|---|---|---|
-| Phase 1 | Project Setup & Design System | Completed |
-| Phase 2 | Complete Landing Page Development | Completed |
-| Phase 3 | Authentication UI | Planned |
-| Phase 4 | Student Dashboard | Planned |
-| Phase 5 | Recruiter Dashboard | Planned |
-| Phase 6 | TPO Dashboard | Planned |
-| Phase 7 | Frontend Functionality & Mock Data Integration | Planned |
-| Phase 8 | Final Testing & UI Improvements | Planned |
-
-### Completed Work
-
-**Phase 1 – Project Setup & Design System**
-
-- React + Vite project configuration.
-- React Router DOM setup.
-- Reusable Navbar and Footer.
-- Main application layout.
-- Global CSS and design variables.
-- Responsive design foundation.
-
-**Phase 2 – Landing Page Development**
-
-- Complete landing page with nine sections.
-- Reusable landing page components.
-- Responsive navigation bar and footer.
-- Interactive FAQ accordion.
-- Temporary opportunities and authentication placeholder routes.
-- Illustrative statistics and sample testimonials.
-
-### Verification
-
-- Phase 1 production build completed successfully.
-- Phase 2 production build completed successfully.
-- Vite development server started successfully during Phase 1.
-- Manual browser testing of all responsive layouts and interactions remains to be completed.
-
-## 🚀 12. Future Scope
-
-The project can be extended with the following capabilities:
-
-- Backend development using Node.js and Express.js.
-- Database integration using MongoDB.
-- Secure authentication and role-based authorization.
-- Functional student, recruiter and TPO dashboards.
-- Student profile and resume management.
-- Job posting and application management.
+- User authentication and authorization.
+- Student dashboard and profile management.
+- Recruiter dashboard and company management.
+- TPO administration dashboard.
+- Resume upload and management.
+- Job posting and application system.
 - Application status tracking.
-- Candidate shortlisting and recruitment workflows.
-- Placement analytics and report generation.
-- Notifications and recruitment updates.
+- Candidate filtering and shortlisting.
+- Database integration.
+- Placement reports and analytics.
+- Notifications for placement updates.
 
-## 📌 13. Current Project Status
+## 13. Project Status
 
-**Status: Frontend Development in Progress**
+The frontend development of CareerBridge is currently in progress. The initial project setup and public landing page have been developed.
 
-CareerBridge has successfully completed its initial frontend setup and landing page development.
-
-The current application provides the foundation for a centralized student recruitment portal, with dedicated modules and interactive workflows planned for upcoming development phases.
-
-Backend services, database connectivity, and complete recruitment functionality have not yet been implemented.
+The student, recruiter, and TPO portal modules are planned for further development. Backend services and database integration will also be added as the project progresses.
 
 ---
 
-**Developed by:**  
-Akash Rauniyar & Ajeet Chaursiya
+**Project Developed By**
 
-**Project:** CareerBridge – Student Recruitment Portal
+Akash Rauniyar  
+Ajeet Chaursiya
 
-**Institution:** ABES Engineering College
-
-**Department:** Computer Science & Engineering (CSE-11)
+**ABES Engineering College**  
+Computer Science & Engineering, CSE-11
